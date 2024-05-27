@@ -9949,8 +9949,13 @@ footer.clean-footer.crev:before {
     letter-spacing: 1px;
   }
   .vcard-bg {
-    background-position: 40%;
-  }
+    background-position: 40% 2%; 
+    background-size: 130%; /* Ensure the background image covers the entire container */
+ 
+   
+}
+
+
   .work-asymetic .caption .lg-text {
     font-size: 55px;
   }
